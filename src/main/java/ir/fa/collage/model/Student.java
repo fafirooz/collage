@@ -20,6 +20,19 @@ public class Student extends User {
         super(name1, surname1, username1);
     }
 
+    public int getAge() {
+        return age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
 
+    public boolean isScholarship() {
+        return scholarship;
+    }
+
+    public void setScholarship(boolean scholarship) {
+        this.scholarship = scholarship;
+    }
 }
