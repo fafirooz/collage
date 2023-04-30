@@ -1,10 +1,15 @@
 package ir.fa.collage.model;
 
 public class Lesson {
-    private String name;
+    public String name;
     private int termCount;
     private double price;
-    private Teacher teacher;
+
+
+    public Lesson(String name, int termCount) {
+        this.name = name;
+        this.termCount = termCount;
+    }
 
     public Lesson(String name, int termCount, double price) {
         this.name = name;
