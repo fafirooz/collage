@@ -1,0 +1,36 @@
+//System Design
+//Requirements:
+ 1-Functional (User Story) : what the system does.
+       Tests: Unit test, integration test, acceptance test
+ 2-Non-Functional (-ties) : how the system does.
+  2-1: Scalability
+  2-2: Availability: 99.99%, how:eliminate single point of failure with redundancy (AP)
+  2-3: Consistency: (CP)
+  2-4: Reliability
+  2-5: Efficiency:Low latency
+  2-6: Maintainability
+  2-7: Usability
+  2-8: Throughput
+  2-9: Performance: using performance test (using JMeter)
+
+
+
+// CRUD stands for Create, Read/Retrieve,
+  Update and Delete and these are the four basic operations that we perform on persistence storage.
+
+
+// Tools:
+ 1- Git
+ Git is a version control system.
+ Git helps you keep track of code changes.
+ Git is used to collaborate on code.
+
+  1-1: Version Control
+
+ 2- Mavon
+ Maven is a popular open-source build tool developed by the Apache Group to build, publish,
+ and deploy several projects at once for better project management.
+ The tool provides allows developers to build and document the lifecycle framework.
+  2-1: Package Manager
+  2-2: Build Tool
+
