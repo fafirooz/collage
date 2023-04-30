@@ -1,27 +1,27 @@
 package ir.fa.collage.model;
 
 public class Lesson {
-    public String name;
+    public Field name;
     private int termCount;
     private double price;
 
 
-    public Lesson(String name, int termCount) {
+    public Lesson(Field name, int termCount) {
         this.name = name;
         this.termCount = termCount;
     }
 
-    public Lesson(String name, int termCount, double price) {
+    public Lesson(Field name, int termCount, double price) {
         this.name = name;
         this.termCount = termCount;
         this.price = price;
     }
 
-    public String getName() {
+    public Field getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(Field name) {
         this.name = name;
     }
 
