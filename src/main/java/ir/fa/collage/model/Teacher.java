@@ -1,6 +1,8 @@
+package ir.fa.collage.model;
+
 public class Teacher extends User {
 
-    private Field field; // rrtr
+    private Field field;
     private int experience;
 
     public Teacher(Field field1, int experience1,String name1, String surname1, String username1){

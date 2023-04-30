@@ -1,3 +1,5 @@
+package ir.fa.collage.model;
+
 public enum Field {
     MATH, ART, SPORT, LITERATURE
 }

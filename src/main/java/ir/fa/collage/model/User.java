@@ -1,3 +1,5 @@
+package ir.fa.collage.model;
+
 public class User {
 
     protected String name;

@@ -1,3 +1,5 @@
+package ir.fa.collage.model;
+
 public class Student extends User {
 
    private int age;
