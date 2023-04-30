@@ -6,6 +6,8 @@ public class User {
     protected String surname;
     protected String username;
 
+    private Lesson[] lessons;
+
     public User(String name1, String surname1, String username1) {
         name = name1;
         surname = surname1;

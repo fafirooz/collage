@@ -4,6 +4,7 @@ public class Lesson {
     private String name;
     private int termCount;
     private double price;
+    private Teacher teacher;
 
     public Lesson(String name, int termCount, double price) {
         this.name = name;

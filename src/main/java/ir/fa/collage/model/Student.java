@@ -5,6 +5,8 @@ public class Student extends User {
    private int age;
    private boolean scholarship;
 
+   private Lesson[] lessons;
+
    public Student(int age1, boolean scholarship1, String name1, String surname1, String username1){ //conductor
        super(name1, surname1, username1);
        age = age1;
