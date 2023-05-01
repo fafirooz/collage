@@ -24,9 +24,9 @@ public class Student extends User {
    }
 
     // overload = difference in optional and mandatory
-    public Student(String name1, String surname1, String username1){
+    /*public Student(String name1, String surname1, String username1){
         super(name1, surname1, username1);
-    }
+    } */
 
     public int getAge() {
         return age;

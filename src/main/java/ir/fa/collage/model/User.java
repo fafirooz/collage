@@ -10,6 +10,7 @@ public class User {
         name = name1;
         surname = surname1;
         username = username1;
+
     }
 
     public String getName() {

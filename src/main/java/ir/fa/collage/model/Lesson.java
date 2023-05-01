@@ -11,7 +11,7 @@ public class Lesson {
         this.termCount = termCount;
     }
 
-    public Lesson(Field name, int termCount, double price) {
+    public Lesson (Field name, int termCount, double price) {
         this.name = name;
         this.termCount = termCount;
         this.price = price;
