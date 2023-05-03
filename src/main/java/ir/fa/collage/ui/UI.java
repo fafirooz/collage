@@ -1,6 +1,6 @@
-package ir.fa.collage.ui;
+package ir.fa.collage.Ui;
 
-public interface UI {
+public interface Ui {
 
     public void show();
 }
