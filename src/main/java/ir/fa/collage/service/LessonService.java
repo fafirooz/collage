@@ -1,18 +1,8 @@
-package ir.fa.collage.service;
+package ir.fa.collage.Service;
 
 import ir.fa.collage.model.Lesson;
-import ir.fa.collage.repository.InMemoryLessonRepository;
-import ir.fa.collage.repository.LessonRepository;
 
-public class LessonService {
+public interface LessonService {
 
-    private LessonRepository lessonRepository;
-
-    public LessonService(LessonRepository lessonRepository) {
-        this.lessonRepository = lessonRepository;
-    }
-
-    public void save(Lesson lesson) {
-        lessonRepository.save(lesson);
-    }
+    void save(Lesson lesson);
 }
