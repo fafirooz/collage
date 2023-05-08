@@ -2,15 +2,14 @@ package ir.fa.collage.ui;
 
 import ir.fa.collage.model.Field;
 import ir.fa.collage.model.Lesson;
-import ir.fa.collage.service.LessonService;
 
 import java.util.Scanner;
 
-public class TerminalUI implements UI {
+public class TerminalUI implements Ui {
 
-    private LessonService lessonService;
+    private ir.fa.collage.service.LocalLessonService lessonService;
 
-    public TerminalUI(LessonService lessonService) {
+    public TerminalUI(ir.fa.collage.service.LocalLessonService lessonService) {
         this.lessonService = lessonService;
     }
 

@@ -1,6 +1,5 @@
 package ir.fa.collage.Service;
 
-import ir.fa.collage.Repository.TeacherRepository;
 import ir.fa.collage.model.Teacher;
 
 public class LocalTeacherService implements TeacherService{
@@ -12,7 +11,7 @@ public class LocalTeacherService implements TeacherService{
 
     }
     public void save (Teacher teacher){
-        TeacherRepository.save(teacher);
+        localTeacherService.save(teacher);
     }
     @Override
     public void bussiness (){

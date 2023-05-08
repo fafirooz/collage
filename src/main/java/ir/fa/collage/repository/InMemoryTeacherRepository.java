@@ -1,4 +1,4 @@
-package ir.fa.collage.Repository;
+package ir.fa.collage.repository;
 
 import ir.fa.collage.model.Teacher;
 
