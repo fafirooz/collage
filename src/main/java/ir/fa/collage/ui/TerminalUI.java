@@ -13,7 +13,6 @@ public class TerminalUI implements Ui {
     ArrayList<Lesson> database = new ArrayList<>();
 
 
-
     public TerminalUI(ir.fa.collage.service.LocalLessonService lessonService) {
         this.lessonService = lessonService;
     }
@@ -35,6 +34,8 @@ public class TerminalUI implements Ui {
                 case 2:
                     removeLesson(scanner, database);
                     break;
+                case 3:
+                    showListLesson(scanner);
                 default:
             }
         } while (input != 0);
@@ -43,6 +44,7 @@ public class TerminalUI implements Ui {
     private void welcome(){
         System.out.println("1 - Save lesson:");
         System.out.println("2- remove lesson");
+        System.out.println("3- showListLesson");
         System.out.println("0 - Exit");
     }
 
@@ -62,5 +64,10 @@ public class TerminalUI implements Ui {
         int termCount = scanner.nextInt();
         Lesson lesson = new Lesson(Field.valueOf(name), termCount);
         lessonService.remove(lesson);
+    }
+    private void showListLesson(Scanner scanner){
+        for (Lesson lesson : lessonService.returnList()) {
+            System.out.println(lesson);
+        }
     }
 }

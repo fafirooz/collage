@@ -1,7 +1,10 @@
 package ir.fa.collage.service;
 
+import ir.fa.collage.model.Field;
 import ir.fa.collage.model.Lesson;
 import ir.fa.collage.repository.LessonRepository;
+
+import java.util.ArrayList;
 
 public class LocalLessonService implements LessonService {
 
@@ -20,4 +23,14 @@ public class LocalLessonService implements LessonService {
     public void remove(Lesson lesson) {
         lessonRepository.remove(lesson);
     }
+
+    @Override
+    public ArrayList<Lesson> returnList() {
+        return lessonRepository.returnList();
+
+    }
+
+
+
+
 }

@@ -40,4 +40,13 @@ public class Lesson {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Lesson{" +
+                "name=" + name +
+                ", termCount=" + termCount +
+                ", price=" + price +
+                '}';
+    }
 }
