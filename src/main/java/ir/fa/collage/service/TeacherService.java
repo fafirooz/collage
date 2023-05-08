@@ -1,4 +1,4 @@
-package ir.fa.collage.Service;
+package ir.fa.collage.service;
 
 public interface TeacherService {
     public void bussiness();

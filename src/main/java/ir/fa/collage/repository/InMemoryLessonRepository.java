@@ -16,4 +16,10 @@ public class InMemoryLessonRepository implements LessonRepository {
     public void save(Lesson lesson) {
         lessonList.add(lesson);
     }
+
+    @Override
+    public void remove(Lesson lesson) {
+        lessonList.remove(lesson);
+
+    }
 }

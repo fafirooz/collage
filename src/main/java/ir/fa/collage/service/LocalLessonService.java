@@ -1,6 +1,5 @@
 package ir.fa.collage.service;
 
-import ir.fa.collage.Service.LessonService;
 import ir.fa.collage.model.Lesson;
 import ir.fa.collage.repository.LessonRepository;
 
@@ -15,5 +14,10 @@ public class LocalLessonService implements LessonService {
     @Override
     public void save(Lesson lesson) {
         lessonRepository.save(lesson);
+    }
+
+    @Override
+    public void remove(Lesson lesson) {
+        lessonRepository.remove(lesson);
     }
 }
