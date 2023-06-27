@@ -8,8 +8,8 @@ public class Student extends User {
 
    private int age;
    private boolean scholarship;
-   private Lesson[] lessons;
-   private int counter;
+   private Lesson[] lessons; // private List<> lessons= new ArrayList<>();
+   private int counter; //Delete when use arraylist
 
    public Student(int age1, boolean scholarship1, String name1, String surname1, String username1){ //conductor
        super(name1, surname1, username1);
@@ -24,9 +24,6 @@ public class Student extends User {
    }
 
     // overload = difference in optional and mandatory
-    /*public Student(String name1, String surname1, String username1){
-        super(name1, surname1, username1);
-    } */
 
     public int getAge() {
         return age;
@@ -49,7 +46,7 @@ public class Student extends User {
     }
 
     public void addLesson(Lesson lesson) {
-        lessons[counter] = lesson;
+        lessons[counter] = lesson; // addLesson.ArrayList<>();
         counter++;
     }
 }

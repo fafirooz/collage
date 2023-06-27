@@ -68,6 +68,6 @@ public class TerminalUI implements Ui {
     private void showListLesson(Scanner scanner){
         for (Lesson lesson : lessonService.returnList()) {
             System.out.println(lesson);
-        }
+        } //System.out.println(lesson.toString()); = System.out.println(lesson);
     }
 }
